@@ -1,0 +1,49 @@
+@import "variables";
+
+.slider {
+    padding: 5rem 0;
+    h3 {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    p {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .carousel-caption {
+        background: rgba(0,0,0,0.5);
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        padding: 5rem 0 3rem;
+        h3 {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+        p {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        .carousel-caption {
+            background: rgba(0,0,0,0.5);
+            width: 100%;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            @include center-flex;
+        }
+        img {
+            height: 200px;
+        }
+        .carousel-control-prev {
+            display: none;
+        }
+        .carousel-control-next {
+            display: none;
+        }
+    }
+}
