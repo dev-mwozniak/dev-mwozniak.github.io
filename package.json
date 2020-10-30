@@ -35,9 +35,9 @@
     "swiper": "^5.4.5"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build  && react-snapshot",
     "test": "react-scripts test",
     "serve": "serve -s build",
