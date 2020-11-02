@@ -1,0 +1,57 @@
+@import "fonts";
+
+// THEME COLORS
+
+$blue: #0083ff;
+
+$cyan: #1adaff;
+$darkBlue: #0A5766;
+
+$grey1: rgba(159,162,180,0.4);
+$grey2: #666562;
+$grey3: #717380;
+$grey4: rgba(0,0,0,0.21);
+$grey5: #7f7f7f;
+$grey6: #e5e5e5;
+$grey7: #4d4d4d;
+$grey8: #383940;
+$grey9: #e2e3e9;
+$grey10: #9FA2B4;
+$lightGray: #cfd1da;
+$lighterGray: #d8dae1;
+$gray: #7e808c;
+$grey: #e3e0db;
+$greyFooter: #8d90a0;
+$textGrey: #7f7f7f;
+$greyBackground: #f0f1f3;
+
+// TYPOGRAPHY
+
+$muliExtraLight: 'Muli ExtrLight', sans-serif;
+$muliLight: 'Muli Light', sans-serif;
+$muli: 'Muli', sans-serif;
+$muliSemibold: 'Muli Semibold', sans-serif;
+$muliBold: 'Muli Bold', sans-serif;
+$muliExtrabold: 'Muli Extrabold', sans-serif;
+$muliBlack: 'Muli Black', sans-serif;
+
+// MISCELLANEOUS
+
+$greyShadow: 0 1px 0 rgba(207,209,218,0.45);
+$blueBorder: solid 1px $blue;
+$greyBorder: solid 3px #f0f0f0;
+$greyContactBorder: solid 3px #383940;
+$navTransition: transform 0.3s ease;
+$border: solid 1px $lightGray;
+
+//PLACEMENT
+
+@mixin center-flex {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
